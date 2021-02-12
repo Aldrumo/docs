@@ -1,0 +1,3 @@
+- [Try the Demo](/demo)
+- ## Getting Started
+    - [Installation](/docs/{{version}}/installation)
