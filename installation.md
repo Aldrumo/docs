@@ -40,6 +40,22 @@ You can read more on Laravel's requirements [here](https://laravel.com/docs/8.x/
 <a name="installation"></a>
 ### Installation
 
+While installing Aldrumo into an existing project is possible, we currently recommend that a fresh Laravel installation be used.
+
+Assuming you have the [Laravel Installer](https://laravel.com/docs/8.x/installation#the-laravel-installer) configured, create a fresh Laravel installation.
+
+```bash
+laravel new mysite
+```
+
+Then navigate into the newly created directory and simply use composer to require `aldrumo/core`.
+
+```bash
+cd ./mysite
+composer require aldrumo/core
+```
+
+
 
 
 
