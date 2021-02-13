@@ -1,9 +1,9 @@
 # Installation
 
 - [About Aldrumo](#about-aldrumo)
-- [Your first site](#your-first-site)
+- [Installation](#installation)
     - [Requirements](#requirements)
-    - [Installation](#installation)
+    - [Setup](#setup)
     
 <a name="about-aldrumo"></a>
 ## About Aldrumo
@@ -14,8 +14,8 @@ Built upon a standard Laravel and Livewire installation, Aldrumo lives as tested
 
 With an amazing WYSIWYG editor and the SPA feel thanks to Livewire, Aldrumo also aims to give the end user a fantastic and easy to use way to manage their website!
 
-<a name="your-first-site"></a>
-## Your first site
+<a name="installation"></a>
+## Installation
 
 Before getting started setting up your first site with Aldrumo, we recommend you become familiar with the process of setting up an instance of the [Laravel Framework](https://laravel.com/docs/8.x/installation#your-first-laravel-project).
 
@@ -37,10 +37,12 @@ Apart from needing a MySQL database, Aldrumo has no extra requirements other tha
 
 You can read more on Laravel's requirements [here](https://laravel.com/docs/8.x/deployment#server-requirements).
 
-<a name="installation"></a>
-### Installation
+<a name="setup"></a>
+### Setup
 
 While installing Aldrumo into an existing project is possible, we currently recommend that a fresh Laravel installation be used.
+
+Before starting make sure you have a MySQL database setup and have the connection details ready.
 
 Assuming you have the [Laravel Installer](https://laravel.com/docs/8.x/installation#the-laravel-installer) configured, create a fresh Laravel installation.
 
@@ -55,7 +57,16 @@ cd ./mysite
 composer require aldrumo/core
 ```
 
+Lastly, run the Aldrumo's installation command via artisan.
 
+```bash
+php artisan aldrumo:install
+```
 
+You will be asked a series of questions, for your site name / url, as well as database connection details and the initial admin user details.
 
+Once complete, Aldrumo will be setup and installed! Simply navigate in your browser to your sites url to view the default page. 
 
+![Screenshot of Aldrumo Default Page](/screenshots/docs/default-page.png "Screenshot of Aldrumo Default Page")
+
+From here, you can click to access the admin area and login using the details you just entered during installation.
