@@ -65,8 +65,6 @@ php artisan aldrumo:install
 
 You will be asked a series of questions, for your site name / url, as well as database connection details and the initial admin user details.
 
-Once complete, Aldrumo will be setup and installed! Simply navigate in your browser to your sites url to view the default page. 
+Once complete, Aldrumo will be setup and installed! Simply navigate in your browser to your sites url to view the default page. From here, you can click to access the admin area and login using the details you just entered during installation.
 
 ![Screenshot of Aldrumo Default Page](/screenshots/docs/default-page.png "Screenshot of Aldrumo Default Page")
-
-From here, you can click to access the admin area and login using the details you just entered during installation.
