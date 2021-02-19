@@ -10,7 +10,7 @@
 
 Born out of a failed side-project, Aldrumo is one of the first TALL stack Content Management Systems. Built upon the latest technologies, Aldrumo's mission is to provide a great experience for both the developer and the end user.
 
-Built upon a standard Laravel and Livewire installation, Aldrumo lives as tested packages meaning you still get the full power of Laravel, with no compromise. This, along with growing extensive documentation makes for a great developer experience when building your site.
+Built upon a standard Laravel, Livewire installation with Laravel Jetstream for authentication, Aldrumo lives as tested packages meaning you still get the full power of Laravel, with no compromise. This, along with growing extensive documentation makes for a great developer experience when building your site.
 
 With an amazing WYSIWYG editor and the SPA feel thanks to Livewire, Aldrumo also aims to give the end user a fantastic and easy to use way to manage their website!
 
@@ -63,7 +63,7 @@ Lastly, run the Aldrumo's installation command via artisan.
 php artisan aldrumo:install
 ```
 
-You will be asked a series of questions, for your site name / url, as well as database connection details and the initial admin user details.
+You will be asked a series of questions, for your site name / url, as well as database connection details, and the initial admin user details.
 
 Once complete, Aldrumo will be setup and installed! Simply navigate in your browser to your sites url to view the default page. From here, you can click to access the admin area and login using the details you just entered during installation.
 
