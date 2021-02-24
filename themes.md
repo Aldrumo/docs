@@ -30,7 +30,7 @@ The standard Laravel Service Provider is used to register the Theme's existence 
 
 When creating your own Theme, simply extend the base Service Provider from the Theme Manager. 
 
-Don't forget to also set your own namespace for your theme.
+> {tip} If you a creating a theme to be installed via Composer, you a free to choose any namespace. If you are making your theme available via manual download, we suggest starting your namespace with "AldrumoThemes".
 
 ```php 
 <?php
