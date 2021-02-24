@@ -2,3 +2,4 @@
 - ## Getting Started
     - [Installation](/docs/{{version}}/installation)
     - [Themes](/docs/{{version}}/themes)
+    - [Pages](/docs/{{version}}/pages)

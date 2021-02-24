@@ -204,6 +204,15 @@ Care should be taken with where, and how you place the blocks. Remember that whi
 </p>
 ```
 
+#### Available Variables
+
+This is list of the variables Aldrumo makes available across all pages / templates.
+
+| Variable | Description |
+| -------- | ----------- | 
+| $page    | This holds a copy of the Page model for the page we are currently showing |
+| $contentBlocks | This holds a Collection of Block models that represent all the editable areas of the page. Aldrumo drops these into the correct place during rendering of the page |
+
 <a name="installation"></a>
 ## Installation
 
